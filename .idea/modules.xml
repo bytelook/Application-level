@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Application-level.iml" filepath="$PROJECT_DIR$/.idea/Application-level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/druidtwosource/druidtwosource.iml" filepath="$PROJECT_DIR$/druidtwosource/druidtwosource.iml" />
     </modules>
   </component>
 </project>
