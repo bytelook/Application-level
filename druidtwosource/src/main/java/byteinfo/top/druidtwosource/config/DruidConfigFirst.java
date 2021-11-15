@@ -21,7 +21,7 @@ public class DruidConfigFirst {
     public SqlSessionFactory sqlSessionFactory(@Qualifier("firstDataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResource("classpath:mapper/first/**/*.xml"));
+        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResource("classpath:mapper/first/UserMapper.xml"));
         return bean.getObject();
     }
 

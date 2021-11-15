@@ -19,12 +19,12 @@ public class HomeController {
     @Autowired
     private AddressService addressService;
 
-    @RequestMapping(value = "/insertwithfields", method = RequestMethod.PUT)
+    @RequestMapping(value = "/userinsertwithfields", method = RequestMethod.PUT)
     public User create_user(@RequestBody User user) {
         return userService.insertWith(user);
     }
 
-    @RequestMapping(value = "/insertwithfields", method = RequestMethod.PUT)
+    @RequestMapping(value = "/addressinsertwithfields", method = RequestMethod.PUT)
     public Address create_address(@RequestBody Address address) {
         return addressService.insertWithFields(address);
     }
@@ -41,7 +41,7 @@ public class HomeController {
     }
 
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/user/{id}", method = RequestMethod.DELETE)
     public int delete_user(@PathVariable int id) {
         return userService.delete(id);
     }

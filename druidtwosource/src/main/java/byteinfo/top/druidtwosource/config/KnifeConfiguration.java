@@ -23,7 +23,7 @@ public class KnifeConfiguration {
                 )
                 .groupName("2.X版本")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("byteinfo.top.controller"))
+                .apis(RequestHandlerSelectors.basePackage("byteinfo.top.druidtwosource.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 ;
