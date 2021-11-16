@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/druidtwosource/pom.xml" />
+        <option value="$PROJECT_DIR$/druidtwosource/Integrity-check/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,15 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Integrity-check" />
         <module name="druidtwosource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="druidtwosource" target="1.8" />
+      <module name="Integrity-check" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Integrity-check" options="-parameters" />
       <module name="druidtwosource" options="-parameters" />
     </option>
   </component>
