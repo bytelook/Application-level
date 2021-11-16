@@ -1,4 +1,4 @@
-package byteinfo.top.druidtwosource.config;
+package top.byteinfo.integritycheck.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -13,28 +13,34 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
 
+/**
+ * @Description: druid配置类
+ * @author: willzhao E-mail: zq2599@gmail.com
+ * @date: 2020/8/18 08:12
+ */
 @Configuration
-@MapperScan(basePackages = "byteinfo.top.druidtwosource.mapper.first",sqlSessionTemplateRef = "firstSqlSessionTemplate")
+@MapperScan(basePackages = "top.byteinfo.integritycheck.mapper.first", sqlSessionTemplateRef  = "firstSqlSessionTemplate")
 public class DruidConfigFirst {
+
     @Bean(name = "firstSqlSessionFactory")
     @Primary
     public SqlSessionFactory sqlSessionFactory(@Qualifier("firstDataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mapper/first/UserMapper.xml"));
+        bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mappers/first/**/*Mapper.xml"));
         return bean.getObject();
     }
 
-    @Bean(name="firstTransactionManager")
+    @Bean(name = "firstTransactionManager")
     @Primary
-    public DataSourceTransactionManager transactionManager(@Qualifier("firstDataSource") DataSource dataSource){
+    public DataSourceTransactionManager transactionManager(@Qualifier("firstDataSource") DataSource dataSource) {
         return new DataSourceTransactionManager(dataSource);
     }
-    @Bean(name="firstSqlSessionTemplate")
+
+    @Bean(name = "firstSqlSessionTemplate")
     @Primary
-    public SqlSessionTemplate sqlSessionTemplate(@Qualifier("firstSqlSessionFactory")SqlSessionFactory sqlSessionFactory){
+    public SqlSessionTemplate sqlSessionTemplate(@Qualifier("firstSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
-
 
 }
