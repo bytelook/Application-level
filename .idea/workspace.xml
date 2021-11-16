@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3060e9ab-e104-4d61-866d-15e0275aabfd" name="Default Changelist" comment="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/config/DuridConfigSecondary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/config/Knife4jConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/mapper/primary/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/mapper/secondary/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/resources/mappers/primary/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/MybatisdatasourceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/Integrity-check/src/main/java/top/byteinfo/integritycheck/config/DruidConfigFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/Integrity-check/src/main/java/top/byteinfo/integritycheck/config/DruidConfigFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/DruidtwosourceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/config/DataSourcesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/config/DataSourcesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/config/DruidConfigFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/config/DruidConfigPrimary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/config/DruidConfigSecond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/config/Knife4jConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/entity/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/mapper/first/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/mapper/second/AddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/service/AddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/java/byteinfo/top/druidtwosource/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/resources/mapper/first/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/main/resources/mapper/second/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/main/resources/mappers/secondary/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/druidtwosource/src/test/java/byteinfo/top/druidtwosource/DruidtwosourceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/druidtwosource/src/test/java/top/byteinfo/mybatisdatasources/mybatisdatasourcesApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +92,8 @@
       <workItem from="1636964510708" duration="256000" />
       <workItem from="1636964782595" duration="29000" />
       <workItem from="1636964923061" duration="22960000" />
+      <workItem from="1637053741180" duration="779000" />
+      <workItem from="1637054543615" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="!">
       <created>1636964560578</created>
@@ -209,6 +179,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
