@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3060e9ab-e104-4d61-866d-15e0275aabfd" name="Default Changelist" comment="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!">
-      <change afterPath="$PROJECT_DIR$/druidtwosource/src/main/java/top/byteinfo/mybatisdatasources/MybatisdatasourceApplication.java" afterDir="false" />
+    <list default="true" id="3060e9ab-e104-4d61-866d-15e0275aabfd" name="Default Changelist" comment="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!&#10;all ok!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b1c12f1b279f0e07bfc68b772d5419b56977b88d" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20wl8wvJSL0ChVDi8Dqc8n3SPDn" />
@@ -189,7 +193,8 @@
     <MESSAGE value="Integrity check&#10;&#10;add knife4j" />
     <MESSAGE value="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；" />
     <MESSAGE value="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!" />
+    <MESSAGE value="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!&#10;all ok!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrity check&#10;&#10;add knife4j&#10;&#10;去掉springboot中和数据源相关的自动装配；&#10;&#10;all ok!&#10;all ok!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
